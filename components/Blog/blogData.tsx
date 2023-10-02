@@ -3,9 +3,11 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Sustainability",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      `We are committed to reducing carbon footprints and
+      combating climate change. Our solar solutions help businesses lower their
+      reliance on fossil fuels, contributing to a cleaner planet. `,
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "Samuyl Joshi",
@@ -17,9 +19,11 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Quality Assurance",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      `Prismatic Power uses only the highest quality solar
+      panels, inverters, and components. Our rigorous quality control processes
+      ensure the longevity and reliability of every system we install`,
     image: "/images/blog/blog-02.jpg",
     author: {
       name: "Musharof Chy",
@@ -31,9 +35,11 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Customer-Centric Approach",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      `We prioritize our clients' satisfaction above
+      all else. Our dedicated customer support team is ready to assist you at every
+      stage, from initial consultation to post-installation maintenance.`,
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "Lethium Deo",

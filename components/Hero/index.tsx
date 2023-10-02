@@ -2,13 +2,14 @@ import Link from "next/link";
 import { useState } from 'react';
 
 const Hero = () => {
-  const title = 'Prismatic';
-  const subtitle = `Prismatic Power is a pioneering force in the renewable energy industry,
+  const title = 'Prismatic Power';
+  const otherTitle = `Prismatic Power is a pioneering force in the renewable energy industry,
   dedicated to harnessing the boundless power of the sun to create a
   sustainable and brighter future. Established with a vision to revolutionize
   the energy landscape, we specialize in designing, installing, and financing
   commercial solar projects. At Prismatic Power, we are not just an energy
   company; we are the architects of a cleaner, greener world. `;
+  const subtitle = `Lighting Up Your World with Solar Energy.`
   return (
     <div className='h-screen'>
       <section
