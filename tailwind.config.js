@@ -15,10 +15,10 @@ module.exports = {
       current: "currentColor",
       transparent: "transparent",
       white: "#FFFFFF",
-      black: "#090E34",
+      black: "#1b1b1b",
       dark: "#1D2144",
-      primary: "#4A6CF7",
-      yellow: "#FBB040",
+      primary: "#FOA531",
+      yellow: "#585E82",
       "body-color": "#959CB1",
     },
     screens: {
