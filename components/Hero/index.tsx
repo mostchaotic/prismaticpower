@@ -9,7 +9,7 @@ const Hero = () => {
   company; we are the architects of a cleaner, greener world. `;
   const subtitle = `Lighting Up Your World with Solar Energy.`
   return (
-    <div style={{backgroundImage: 'url(/images/hero-background.jpeg)', backgroundRepeat: 'no-repeat'}} className='h-screen'>
+    <div style={{backgroundImage: 'url(/images/hero-background.jpeg)', backgroundSize: '100%'}} className='h-screen w-full'>
       <section
         id="home"
         className="relative h-full z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
