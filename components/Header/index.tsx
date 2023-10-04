@@ -49,23 +49,18 @@ const Header = () => {
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
+                className={`w-full header-logo block ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/prismatic-logo.png"
                   alt="logo"
-                  width={140}
                   height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
+                  width={75}
+                  // style={{borderRadius: 100}}
+                  // style={{objectFit: 'contain'}}
+                  className="dark:block w-12"
                 />
               </Link>
             </div>
