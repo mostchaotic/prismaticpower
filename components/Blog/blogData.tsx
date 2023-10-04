@@ -8,7 +8,7 @@ const blogData: Blog[] = [
       `We are committed to reducing carbon footprints and
       combating climate change. Our solar solutions help businesses lower their
       reliance on fossil fuels, contributing to a cleaner planet. `,
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/commitment-sustainability.jpeg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -40,7 +40,7 @@ const blogData: Blog[] = [
       `We prioritize our clients' satisfaction above
       all else. Our dedicated customer support team is ready to assist you at every
       stage, from initial consultation to post-installation maintenance.`,
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/commitment-customer-centric.jpeg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",

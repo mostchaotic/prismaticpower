@@ -7,17 +7,21 @@ const Features = () => {
 
   const designServices = {
     title: 'Design Services',
-    description: 'Prismatic Power boasts a team of highly skilled engineers and designers who craft tailor-made solar solutions. We take into account your specific energy needs, location, and budget to create an optimal solar system design that maximizes efficiency and savings.'
+    description: 'Prismatic Power boasts a team of highly skilled engineers and designers who craft tailor-made solar solutions. We take into account your specific energy needs, location, and budget to create an optimal solar system design that maximizes efficiency and savings.',
+    image: 'feature-design.jpeg'
   };
 
   const installationExpertise = {
-    title: 'Installation Expertise',
-    description: 'Our experienced technicians ensure flawless installation, using state-of- the-art equipment and adhering to the highest industry standards. We take pride in delivering projects on time and within budget, while maintaining the utmost attention to safety.'
+    title: 'Installation',
+    description: 'Our experienced technicians ensure flawless installation, using state-of- the-art equipment and adhering to the highest industry standards. We take pride in delivering projects on time and within budget, while maintaining the utmost attention to safety.',
+    image: 'feature-installation.jpeg'
   };
 
   const ppas = {
     title: 'Power Purchase Agreements (PPAs)',
-    description: `Prismatic Power understands that not all organizations have the upfront capital to invest in solar projects. That's why we offer flexible Power Purchase Agreements (PPAs) that allow you to adopt clean energy without the financial burden. We can finance PPAs ranging from 2 million up to an impressive 50 million dollars, providing you with a dependable and cost- effective energy source.`
+    description: `Prismatic Power understands that not all organizations have the upfront capital to invest in solar projects. That's why we offer flexible Power Purchase Agreements (PPAs) that allow you to adopt clean energy without the financial burden. We can finance PPAs ranging from 2 million up to an impressive 50 million dollars, providing you with a dependable and cost- effective energy source.`,
+    image: 'feature-ppa.jpeg'
+
   }
   return (
     <>
@@ -37,9 +41,9 @@ const Features = () => {
               <SingleFeature key={feature.id} feature={feature} />
             ))}
           </div> */}
-          <FeatureBlock description={designServices.description} title={designServices.title}  />
-          <FeatureBlock description={installationExpertise.description} isReverse={true} title={installationExpertise.title} />
-          <FeatureBlock description={ppas.description} title={ppas.title}  />
+          <FeatureBlock description={designServices.description} image={ designServices.image} title={designServices.title}  />
+          <FeatureBlock description={installationExpertise.description} image={ installationExpertise.image} isReverse={true} title={installationExpertise.title} />
+          <FeatureBlock description={ppas.description} image={ ppas.image} title={ppas.title}  />
 
         </div>
       </section>

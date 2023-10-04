@@ -3,10 +3,11 @@ import Image from "next/image";
 interface FeatureBlockProps {
   title: string;
   description: string;
+  image: string;
   isReverse?: boolean;
 }
 
-const FeatureBlock = ({ description, isReverse = false, title}: FeatureBlockProps) => {
+const FeatureBlock = ({ description, image, isReverse = false, title}: FeatureBlockProps) => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className={`container `}>
@@ -17,7 +18,8 @@ const FeatureBlock = ({ description, isReverse = false, title}: FeatureBlockProp
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src={`/images/${image}`}
+                style={{objectFit: 'contain'}}
                 alt="about image"
                 fill
               />
