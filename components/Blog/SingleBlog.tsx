@@ -16,7 +16,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           </span> */}
           <Image style={{objectFit: 'cover'}} src={image} alt="image" fill/>
         </Link>
-        <div className="p-6 sm:p-8 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
+        <div className="p-6 sm:p-8 sm:h-4 lg:h-72 md:py-8 md:px-6 lg:p-8 xl:py-8 xl:px-5 2xl:p-8">
           <h3>
             <Link
               href="/"
