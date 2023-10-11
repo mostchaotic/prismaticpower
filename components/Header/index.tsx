@@ -62,13 +62,13 @@ const Header = () => {
                   // fill
                   // style={{borderRadius: 100}}
                   // style={{objectFit: 'contain'}}
-                  className="dark:block scale-150 w-12 bg-transparent"
+                  className={`dark:block scale-150 w-12 bg-transparent`}
                 />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>
-                <button
+                {/* <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
@@ -89,7 +89,7 @@ const Header = () => {
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
-                </button>
+                </button> */}
                 <nav
                   id="navbarCollapse"
                   className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
