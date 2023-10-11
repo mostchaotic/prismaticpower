@@ -26,8 +26,7 @@ const Footer = () => {
                     height={30}                  />
                 </Link> */}
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  We are more than just a solar company. We are your partners in creating a sustainable and prosperous future. Let us show you how solar energy can transform your life. Call us today!
                 </p>
                 <div className="flex items-center">
                   <a

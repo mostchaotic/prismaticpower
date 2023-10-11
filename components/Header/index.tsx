@@ -40,27 +40,29 @@ const Header = () => {
       <header
         className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${
           sticky
-            ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
+            ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-80"
             : "absolute"
         }`}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="max-w-full xl:mr-12">
               <Link
                 href="/"
-                className={`w-full header-logo block ${
+                className={`header-logo block ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <Image
                   src="/images/prismatic-logo.png"
                   alt="logo"
-                  height={30}
-                  width={75}
+                  
+                  height={300}
+                  width={300}
+                  // fill
                   // style={{borderRadius: 100}}
                   // style={{objectFit: 'contain'}}
-                  className="dark:block w-12"
+                  className="dark:block scale-150 w-12 bg-transparent"
                 />
               </Link>
             </div>
@@ -102,7 +104,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-dark lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
